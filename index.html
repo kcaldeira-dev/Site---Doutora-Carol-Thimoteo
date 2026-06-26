@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<!------------------- COMEÇO HEAD ---------------------->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dra. Carolina Thimoteo | Neuropediatra</title>
+  <link rel="icon" type="image/png" href="./Assets/Favicon.png">
+  
+  <!------------------- FONTES GOOGLE ---------------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!------------------- LINK CSS ---------------------->
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<!------------------- COMEÇO BODY ---------------------->
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <button class="hamburger" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-container">
+
+      <a href="#home" class="nav-logo">
+        <img src="Assets/Logo.png" alt="Logo Dra. Carolina Thimoteo">
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#clinica">A Clínica</a></li>
+        <li><a href="#como-funciona">Processo</a></li>
+        <li><a href="#avaliacoes">Depoimentos</a></li>
+        <li><a href="#faq">Dúvidas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <a href="https://wa.me/5518996386459" target="_blank" class="nav-cta">
+        Agendar Consulta
+      </a>
+
+    </div>
+  </nav>
+
+  <!-- TODO O CONTEÚDO PRINCIPAL DENTRO DA TAG <MAIN> -->
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-container">
+
+        <div class="hero-texto">
+          <span class="hero-tag">Neuropediatria em Presidente Prudente</span>
+          <h1>Cuidando do <span class="destaque">desenvolvimento</span> <br> do seu filho</h1>
+          <p>Atendimento especializado em neurologia infantil, com escuta humanizada e diagnóstico preciso para cada criança.</p>
+
+          <div class="hero-botoes">
+            <a href="https://wa.me/5518996386459" target="_blank" class="btn-primary">
+              Agendar Consulta
+            </a>
+            <a href="#sobre" class="btn-secondary">
+              Conhecer a Dra. Carol
+            </a>
+          </div>
+        </div>
+
+        <!-- HERO IMAGEM MELHORADA -->
+        <div class="hero-imagem-wrapper">
+          <div class="hero-imagem-fundo"></div>
+          <div class="hero-imagem">
+            <img src="Assets/beautiful-young-female-doctor-looking-camera-office.jpg" alt="Dra. Carolina Thimoteo">
+          </div>
+          
+          <!-- NOVO: Badge Flutuante de Informação -->
+          <div class="hero-badge reveal">
+            <div class="hero-badge-icon">👩‍⚕️</div>
+            <div class="hero-badge-text">
+              <strong>Especialista</strong>
+              <span>Neurologia Infantil</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="sobre" id="sobre">
+      <div class="sobre-container">
+
+        <div class="sobre-imagem">
+          <img src="Assets/beautiful-young-female-doctor-looking-camera-office.jpg" alt="Dra. Carolina Thimoteo">
+          <div class="sobre-badge reveal">
+            <div class="sobre-badge-icon">⭐</div>
+            <div class="sobre-badge-text">
+              <strong>+5 Anos</strong>
+              <span>de experiência</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sobre-texto">
+          <span class="section-tag">Sobre a Dra. Carol</span>
+          <h2>Dedicada ao cuidado <span class="destaque"><br> neurológico infantil</span></h2>
+          <p>A Dra. Carolina S. Thimoteo Gonçalves é especialista em Pediatria e Neurologia Infantil, com formação sólida e atendimento humanizado voltado ao desenvolvimento saudável de crianças e adolescentes.</p>
+          <p>Acredita que cada criança é única e merece um olhar individualizado, combinando precisão diagnóstica com acolhimento à família.</p>
+
+          <div class="sobre-info">
+            <div class="info-item">
+              <span class="info-icon">🩺</span>
+              <div>
+                <strong>CRM 156005</strong>
+                <span>Conselho Regional de Medicina</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🧠</span>
+              <div>
+                <strong>RQE 54906</strong>
+                <span>Especialista em Neurologia Infantil</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">📍</span>
+              <div>
+                <strong>Presidente Prudente - SP</strong>
+                <span>Atendimento presencial</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NÚMEROS / PROVA SOCIAL -->
+    <section class="numeros">
+      <div class="numeros-container">
+        <div class="numero-item">
+          <span class="numero-valor" data-target="500">0</span><span class="numero-sufixo">+</span>
+          <span class="numero-label">Famílias atendidas</span>
+        </div>
+        <div class="numero-divisor"></div>
+        <div class="numero-item">
+          <span class="numero-valor" data-target="5">0</span><span class="numero-sufixo">+</span>
+          <span class="numero-label">Anos de experiência</span>
+        </div>
+        <div class="numero-divisor"></div>
+        <div class="numero-item">
+          <span class="numero-valor" data-target="98">0</span><span class="numero-sufixo">%</span>
+          <span class="numero-label">Satisfação dos pacientes</span>
+        </div>
+        <div class="numero-divisor"></div>
+        <div class="numero-item">
+          <span class="numero-valor" data-target="6">0</span><span class="numero-sufixo"></span>
+          <span class="numero-label">Especialidades atendidas</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="servicos" id="servicos">
+      <div class="servicos-container">
+        <div class="servicos-header">
+          <span class="section-tag">Áreas de Atuação</span>
+          <h2>O que a Dra. Carol <span class="destaque">atende</span></h2>
+          <p>Atendimento especializado para crianças e adolescentes com foco em diagnóstico preciso e acompanhamento contínuo.</p>
+        </div>
+        <div class="servicos-grid">
+          <div class="servico-card">
+            <div class="servico-icone">🧠</div>
+            <h3>Epilepsia</h3>
+            <p>Diagnóstico e tratamento de crises epilépticas em crianças e adolescentes.</p>
+          </div>
+          <div class="servico-card">
+            <div class="servico-icone">⭐</div>
+            <h3>Autismo (TEA)</h3>
+            <p>Avaliação, diagnóstico e orientação para famílias de crianças com Transtorno do Espectro Autista.</p>
+          </div>
+          <div class="servico-card">
+            <div class="servico-icone">💡</div>
+            <h3>TDAH</h3>
+            <p>Identificação e manejo do Transtorno de Déficit de Atenção e Hiperatividade.</p>
+          </div>
+          <div class="servico-card">
+            <div class="servico-icone">📈</div>
+            <h3>Atraso no Desenvolvimento</h3>
+            <p>Acompanhamento de marcos do desenvolvimento neuropsicomotor infantil.</p>
+          </div>
+          <div class="servico-card">
+            <div class="servico-icone">😴</div>
+            <h3>Distúrbios do Sono</h3>
+            <p>Avaliação de insônia, parassonias e outros problemas relacionados ao sono infantil.</p>
+          </div>
+          <div class="servico-card">
+            <div class="servico-icone">🗣️</div>
+            <h3>Distúrbios da Fala</h3>
+            <p>Identificação de atrasos e alterações na linguagem e comunicação da criança.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VÍDEO DA CLÍNICA -->
+    <section class="video-clinica" id="clinica">
+      <div class="video-container">
+        
+        <div class="video-header reveal">
+          <span class="section-tag">Nosso Espaço</span>
+          <h2>Conheça a <span class="destaque">clínica</span></h2>
+          <p>Um ambiente lúdico e acolhedor, preparado com muito carinho para receber a sua família.</p>
+        </div>
+
+        <div class="video-wrapper reveal">
+          <iframe 
+            src="https://www.youtube.com/embed/ScMzIvxBSi4?si=dummy" 
+            title="Apresentação da Clínica" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -> PROCESSO DE ATENDIMENTO -->
+    <section class="como-funciona" id="como-funciona">
+      <div class="como-container">
+        <div class="como-header">
+          <span class="section-tag">Processo de Atendimento</span>
+          <h2>A jornada até o <span class="destaque">diagnóstico</span></h2>
+          <p>Conheça os passos claros e acolhedores para a consulta do seu filho.</p>
+        </div>
+        <div class="como-steps-wrapper">
+          <div class="como-timeline-line"></div> 
+          <div class="como-steps">
+            <div class="step card-premium">
+              <div class="step-head">
+                <div class="step-numero">1</div>
+                <div class="step-icone">💬</div>
+              </div>
+              <div class="step-body">
+                <h3>Entre em contato</h3>
+                <p>Fale pelo WhatsApp ou preencha o formulário. Nossa equipe responde rapidamente para verificar disponibilidade.</p>
+              </div>
+            </div>
+            <div class="step card-premium">
+              <div class="step-head">
+                <div class="step-numero">2</div>
+                <div class="step-icone">📅</div>
+              </div>
+              <div class="step-body">
+                <h3>Agende a consulta</h3>
+                <p>Escolha o melhor horário para você e sua família. O agendamento é fácil e confirmado diretamente pelo WhatsApp.</p>
+              </div>
+            </div>
+            <div class="step card-premium">
+              <div class="step-head">
+                <div class="step-numero">3</div>
+                <div class="step-icone">🧠</div>
+              </div>
+              <div class="step-body">
+                <h3>Consulta acolhedora</h3>
+                <p>A Dra. Carol realiza uma avaliação completa e individualizada, focada no desenvolvimento neuropsicomotor e bem-estar da criança.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="como-cta">
+          <a href="https://wa.me/5518996386459" target="_blank" class="btn-primary shimmer">
+            Quero agendar agora
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVALIAÇÕES CARROSSEL E NOVO CTA -->
+    <section class="avaliacoes" id="avaliacoes">
+      <div class="avaliacoes-container">
+        
+        <div class="avaliacoes-header">
+          <span class="section-tag">Depoimentos</span>
+          <h2>O que as famílias <span class="destaque">falam</span></h2>
+          <p>Avaliações reais de pais e responsáveis que confiam no cuidado da Dra. Carol.</p>
+          <div class="google-rating">
+            <div class="stars">★★★★★</div>
+            <span><strong>4.8</strong> no Google</span>
+          </div>
+        </div>
+        
+        <div class="avaliacoes-carousel reveal">
+          <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+          
+          <div class="carousel-track-container">
+            <div class="carousel-track">
+              
+              <div class="carousel-slide avaliacao-card">
+                <div class="avaliacao-stars">★★★★★</div>
+                <p>"A Dra. Carol é incrível! Muito atenciosa e paciente com meu filho. Nos sentimos acolhidos desde o primeiro momento. Diagnóstico preciso."</p>
+                <div class="avaliacao-autor">
+                  <div class="autor-avatar">M</div>
+                  <div>
+                    <strong>Mariana S.</strong>
+                    <span>Mãe de paciente</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="carousel-slide avaliacao-card">
+                <div class="avaliacao-stars">★★★★★</div>
+                <p>"Profissional excepcional. Conseguiu identificar o que outros médicos não viram. Minha filha foi diagnosticada com TDAH e hoje tem outra vida."</p>
+                <div class="avaliacao-autor">
+                  <div class="autor-avatar">R</div>
+                  <div>
+                    <strong>Roberto A.</strong>
+                    <span>Pai de paciente</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="carousel-slide avaliacao-card">
+                <div class="avaliacao-stars">★★★★★</div>
+                <p>"Atendimento humanizado de verdade. A doutora tem uma sensibilidade incrível. Meu filho, que tem TEA, se sentiu muito à vontade."</p>
+                <div class="avaliacao-autor">
+                  <div class="autor-avatar">C</div>
+                  <div>
+                    <strong>Cláudia M.</strong>
+                    <span>Mãe de paciente</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-slide avaliacao-card">
+                <div class="avaliacao-stars">★★★★★</div>
+                <p>"Super recomendo! Explicou tudo com muita clareza, nos deu orientações detalhadas e acompanhou o caso com muito cuidado. Excelente!"</p>
+                <div class="avaliacao-autor">
+                  <div class="autor-avatar">F</div>
+                  <div>
+                    <strong>Fernanda L.</strong>
+                    <span>Mãe de paciente</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-slide avaliacao-card">
+                <div class="avaliacao-stars">★★★★★</div>
+                <p>"Minha filha tem epilepsia e encontramos a segurança que precisávamos. Profissional muito competente e sempre disponível para nós."</p>
+                <div class="avaliacao-autor">
+                  <div class="autor-avatar">A</div>
+                  <div>
+                    <strong>Ana Paula T.</strong>
+                    <span>Mãe de paciente</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+          <button class="carousel-btn next" aria-label="Próximo">❯</button>
+        </div>
+
+        <div class="avaliacoes-cta reveal">
+          <div class="cta-texto">
+            <h3>Junte-se a dezenas de famílias</h3>
+            <p>Confira todas as opiniões reais de quem já passou em consulta no nosso perfil oficial.</p>
+          </div>
+          <a href="https://share.google/K17AIRtTYJhR2oZwK" target="_blank" class="btn-google">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Ver no Google Maps
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="faq-container">
+
+        <div class="faq-header">
+          <span class="section-tag">Dúvidas</span>
+          <h2>Perguntas <span class="destaque">frequentes</span></h2>
+          <p>Respondemos as principais dúvidas dos pais antes da consulta.</p>
+        </div>
+
+        <div class="faq-lista">
+
+          <div class="faq-item">
+            <button class="faq-pergunta">
+              <span>Quando devo levar meu filho ao neuropediatra?</span>
+              <span class="faq-icone">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </button>
+            <div class="faq-resposta">
+              <p>Você deve buscar uma avaliação quando perceber sinais como atraso na fala ou no desenvolvimento motor, dificuldades de aprendizagem, comportamentos repetitivos, crises convulsivas, hiperatividade excessiva, dificuldade de atenção ou qualquer alteração no desenvolvimento neurológico da criança. Quanto mais cedo, melhor o prognóstico.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-pergunta">
+              <span>A Dra. Carol atende pelo plano de saúde?</span>
+              <span class="faq-icone">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </button>
+            <div class="faq-resposta">
+              <p>Entre em contato pelo WhatsApp para verificar os convênios aceitos atualmente e as condições de atendimento particular. Nossa equipe esclarecerá todas as informações sobre valores e formas de pagamento.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-pergunta">
+              <span>Qual a idade mínima e máxima para atendimento?</span>
+              <span class="faq-icone">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </button>
+            <div class="faq-resposta">
+              <p>A Neuropediatria atende crianças e adolescentes de 0 a 18 anos. Recém-nascidos, bebês, crianças em fase escolar e adolescentes podem ser avaliados conforme a necessidade clínica apresentada.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-pergunta">
+              <span>O que devo levar na primeira consulta?</span>
+              <span class="faq-icone">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </button>
+            <div class="faq-resposta">
+              <p>Leve os documentos da criança (RG, cartão do plano se houver), exames anteriores, relatórios de escola ou de outros especialistas (fonoaudiólogo, psicólogo, terapeuta ocupacional) e, se possível, um vídeo de situações que chamaram sua atenção no comportamento da criança. Tudo isso ajuda na avaliação detalhada.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-pergunta">
+              <span>A Dra. Carol faz diagnóstico de autismo (TEA)?</span>
+              <span class="faq-icone">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </button>
+            <div class="faq-resposta">
+              <p>Sim. O diagnóstico de TEA é uma das especialidades do atendimento. A avaliação é criteriosa, baseada em critérios clínicos estabelecidos internacionalmente, e pode envolver a solicitação de exames complementares e a integração com outros profissionais de saúde para um diagnóstico multidisciplinar completo.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato" id="contato">
+      <div class="contato-container">
+        <div class="contato-header">
+          <span class="section-tag">Contato</span>
+          <h2>Agende a consulta <span class="destaque">do seu filho</span></h2>
+          <p>Entre em contato pelo WhatsApp ou preencha o formulário e retornaremos em breve.</p>
+        </div>
+        <div class="contato-wrapper">
+          <div class="contato-wpp">
+            <div class="wpp-card">
+              <div class="wpp-icone">💬</div>
+              <h3>Fale pelo WhatsApp</h3>
+              <p>Atendimento rápido e direto. Clique abaixo e inicie sua conversa agora mesmo.</p>
+              <a href="https://wa.me/5518996386459" target="_blank" class="btn-wpp">Chamar no WhatsApp</a>
+            </div>
+            <div class="contato-info">
+              <div class="info-item">
+                <span class="info-icon">📞</span>
+                <div><strong>(18) 99638-6459</strong><span>WhatsApp disponível</span></div>
+              </div>
+              <div class="info-item">
+                <span class="info-icon">📍</span>
+                <div><strong>Presidente Prudente - SP</strong><span>Atendimento presencial</span></div>
+              </div>
+            </div>
+          </div>
+          <form class="contato-form" id="formContato">
+            <div class="form-grupo">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Nome do responsável" required>
+            </div>
+            <div class="form-grupo">
+              <label for="telefone">WhatsApp</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(18) 99999-9999" required>
+            </div>
+            <div class="form-grupo">
+              <label for="crianca">Nome da criança</label>
+              <input type="text" id="crianca" name="crianca" placeholder="Nome da criança" required>
+            </div>
+            <div class="form-grupo">
+              <label for="motivo">Motivo da consulta</label>
+              <select id="motivo" name="motivo" required>
+                <option value="" disabled selected>Selecione</option>
+                <option value="tea">Autismo (TEA)</option>
+                <option value="tdah">TDAH</option>
+                <option value="epilepsia">Epilepsia</option>
+                <option value="desenvolvimento">Atraso no Desenvolvimento</option>
+                <option value="sono">Distúrbios do Sono</option>
+                <option value="fala">Distúrbios da Fala</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+            <div class="form-grupo">
+              <label for="mensagem">Mensagem (opcional)</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Conte um pouco sobre o caso..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER MELHORADO -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-logo">
+        <img src="Assets/Logo.png" alt="Logo - Footer Dra. Carolina Thimoteo">
+        <p>Cuidando do desenvolvimento neurológico de crianças e adolescentes com humanidade e precisão.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#sobre">Sobre a Dra.</a></li>
+          <li><a href="#servicos">Especialidades</a></li>
+          <li><a href="#como-funciona">Processo</a></li>
+          <li><a href="#avaliacoes">Depoimentos</a></li>
+          <li><a href="#faq">Dúvidas Frequentes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contato">
+        <h4>Contato</h4>
+        <ul>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--rose)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            (18) 99638-6459
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--rose)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Presidente Prudente - SP
+          </li>
+          <li>
+            <a href="https://wa.me/5518996386459" target="_blank" class="footer-wpp-link">
+              💬 Chamar no WhatsApp
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Acompanhe</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram da Clínica">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="#" aria-label="Facebook da Clínica">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Dra. Carolina S. Thimoteo Gonçalves. Todos os direitos reservados.</p>
+      <p>CRM 156005 | RQE 54906</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5518996386459" target="_blank" class="wpp-float" aria-label="WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="28" height="28">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.526 5.847L.057 23.571a.75.75 0 0 0 .92.92l5.724-1.469A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.726 9.726 0 0 1-4.964-1.361l-.355-.212-3.698.949.964-3.595-.232-.371A9.725 9.725 0 0 1 2.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/>
+    </svg>
+  </a>
+
+  <script src="Js/script.js"></script>
+</body>
+</html>
